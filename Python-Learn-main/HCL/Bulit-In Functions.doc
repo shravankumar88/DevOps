@@ -1,0 +1,47 @@
+Print - print
+len - length
+abs - obsolute 
+type - datatype of a value
+round - rounds of the number to near number
+    round(17.7) = 18
+
+https://www.programiz.com/python-programming/methods/built-in
+
+
+variables - Containers that hold values , these values can be updated
+
+Different types of variables
+ Numbers - Int - 20 ,FLoat- 35.75, complex 1+3j
+                Boolean(Ture,Flase)
+                set -{2,4,6}
+                Dictionary {1:'a',2:'b'}
+                Sequence - String - 'Shravan', List- [2,'a',5.7], Tuple - (3.4.5,'b')
+
+Creating variables
+
+x = y = z = "PYTHON" -> Python first assign to z then y then x
+
+Comparison OPERATORS 
+    == < > <= >= 
+
+OPERATORS + - * /
+
+n1=35 first it will add the right side value which it will be 36 then it will add value to left side which 36+35 = 71
+    n1 += n1 + 1
+
+Data Types - Classification that specifies which type of value a variable
+                Numbers - Int - 20 ,FLoat- 35.75, complex 1+3j
+                Boolean(Ture,Flase)
+                set -{2,4,6}
+                Dictionary {1:'a',2:'b'}
+                Sequence - String - 'Shravan', List- [2,'a',5.7], Tuple - (3.4.5,'b')
+                type() will share the function
+
+Creating Single and multi-single strings
+
+Print(" " ) or print(' ') or print( """" """")
+Print("Double quoate") or Print('Single Quoate') or Print("pythonn" + 'is' + """awesome""")
+
+Input function - where we provide the input for the function
+
+What is the differnece between = and ==? = is for assignment and == is equality 

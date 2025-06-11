@@ -1,0 +1,21 @@
+Interview question - 1
+
+Q: What is the Difference between Byte Code and Intermediate Code?
+
+A:Byte code is considered as the intermediate-level code. Machine Code is considered as the low-level code.
+
+Interview question - 2
+
+Q: Difference between Interpreter and Compiler?
+
+A: Compiler takes a program as a whole. An Interpreter takes single lines of a code. The Compilers generate intermediate machine codes. The Interpreters never generate any intermediate machine codes.
+
+Interview question - 3
+
+Q: Is Python Compiled, Interpreted, or Both?
+
+A: Python is a “COMPILED INTERPRETED” language.
+
+1.This means when the Python program is run,First Python checks for program syntax.
+2.Compiles and converts it to bytecode, and directly bytecode is loaded in system memory or virtual machine.
+3.Then compiled bytecode interpreted from memory to execute it.

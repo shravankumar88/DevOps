@@ -1,0 +1,71 @@
+INTERPRETER: The INTERPRETER uses the source language and converts the prg through each line of data. Then the computer will be able to complete any cmd given through the prg.
+Compiler & INTERPRETER diff
+Total Prg - LIne by line
+Error pops-up after total prg got exected - 
+Compiler will be fast while compare with INTERPRETER
+
+BYTE CODE : Python is usually called an interpreted language, however it combines compiling and interpreting. When we execute a source code, Python first compiles it into a BYTE code. The BYTE CODE is a low-level platform-independent representation of your source code, however,
+it is not the binary machine code and can`t be run by the target machinde directly. In fact, it is a set of instrucations for a VM which is called Python Virtual machine(PVM).
+
+Features: Free and Open source eay to code, Easy to read, Object-Oriented Language, GUI programminng support HIgh-Level language extensible Feature, Eay to debug, Python is a portable language Python is an intehgrated language interpretend language
+            Large Standard Libary, DYnamically Typed Language.
+
+Statically Typed (C/C++/Java) - DYnamically Typed - Python = NO need to define the variables for DYnamically
+Ex: int x = 10 ;                     x=10
+
+Function OR Method  - A block of code. Instaed of using repetive code we call/use Function/Method.
+Module - A module is a set of Methods/Functions ready to be used somewhere else.
+Package - IS a collection of Modules.
+Libary - Is a collection of Package
+Framework - It`s a set of Libraries. The Framework doesn`t just offer functionalities, bit it  also provides an architecture (MVT- Model View Template,MVC Model View Controller) for the development work.
+
+Python Web Frameworks - Django, Pyramid, Falcon, Flask, Bootle, Web2py, FastAPI, Tornado, Sanic Framework, Dash 
+
+Class-2 BASICS IN Python
+
+Comment - Igrnoed by Compilers & Interpreters. Make code more readble for humans, as it provides some info or explanation about what each part of a prg is doing.
+
+Single-Lime Comments (In-Line) - #
+Multi-Line Comments (Block) - ' or "
+
+Variable - Variable is containers which store values. Python is not statically typed. Do need to declare the variables before using them. A variable is created the moment we first assign a value to it.
+            A python variable is a name given to a memory location.
+            Strt with a letter or the underscore character. A variable name can`t start with a number. Can only contain alpha-numeric characters and underscores(A-z,0-9,_). Case-senstive.The reserverd key-words can` be used.
+            Camel Case, Snak Case, Pascal Case
+
+Data Types - Classification that specifies which type of value a variable
+                Numbers - Int - 20 ,FLoat- 35.75, complex 1+3j
+                Boolean(Ture,Flase)
+                set -{2,4,6}
+                Dictionary {1:'a',2:'b'}
+                Sequence - String - 'Shravan', List- [2,'a',5.7], Tuple - (3.4.5,'b')
+
+Type Conversions - Process of converting the value of one data type(interger, string, float etc.,) to another datatype.
+                    Implict Type Consersion - Automatically converts one data type to another datatype. This process doesn`t need any user involvement. There is no data loss
+                    Explict Type Conversion - Users convert the data type of an object to required data type. We use the predefined funcations like int(), float(), str(), etc to perform Explict Type Conversion. 
+                    This type of conversion is also called TYPECASTING because the user casts(changes) the data type of the objects.
+
+INPUT FUNCAtion - We define in the cmd prompt. be default it will be str
+
+OPERATORS
+ Python OPERATORS in general are use t perform opeations on values and variables. Are the special symbols. = - * / <=> !=
+ OPERAND: Values that an operator acts on area called operands. ex: X + Y , + is OPERATORS X & Y are OPERAND
+
+ Types Of OPERATORS https://docs.python.org/3/reference/expressions.html#operator-precedence
+
+    1. Arithmetic OPERATORS - +,-,*,//,**,/,%
+    2. Relational OPERATORS - <,>,<=,>=,==,!=
+    3. Assigment OPERATORS = 
+    4. Logical OPERATORS = AND, OR,NOT
+    5. Memebership OPERATORS
+    6. Identity OPERATORS
+    7. Bitwise OPERATORS
+
+    Contorl Stmts
+        Conditional Stmt(Decision Making) = if, if - else, if - elif- else, nested if - else
+        Transfer Stmt (Jumping stmts) = break, contuine, pass
+        Iterative Stmt (Looping Stmts) = for, while
+            While Loop: Repeats the stmt or group of stmts while a given condition is TRUE. It tests the condition before executing the loop body.
+            For Loop: Executes the code block mutiple times and abbreviates the code that manage the loop variable
+            Nested Loop: We can iterate a loop inside another loop
+    
