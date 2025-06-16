@@ -48,7 +48,7 @@ Type Conversions - Process of converting the value of one data type(interger, st
 INPUT FUNCAtion - We define in the cmd prompt. be default it will be str
 
 OPERATORS
- Python OPERATORS in general are use t perform opeations on values and variables. Are the special symbols. = - * / <=> !=
+ Python OPERATORS in general are use to perform opeations on values and variables. Are the special symbols. = - * / <=> !=
  OPERAND: Values that an operator acts on area called operands. ex: X + Y , + is OPERATORS X & Y are OPERAND
 
  Types Of OPERATORS https://docs.python.org/3/reference/expressions.html#operator-precedence
@@ -57,10 +57,16 @@ OPERATORS
     2. Relational OPERATORS - <,>,<=,>=,==,!=
     3. Assigment OPERATORS = 
     4. Logical OPERATORS = AND, OR,NOT
-    5. Memebership OPERATORS
-    6. Identity OPERATORS
+    5. Memebership OPERATORS - Membership Operators are used to test whether a value is a member of a sequence (eg: list,tuple or string)
+        in:Returns True if a value is found in the sequence
+        is not:Returns True if both variables are not found in same sequence
+    6. Identity OPERATORS - Identity Operators are used to check if two variables refer to the same object
+        is: Returns True if both variables are the same object
+        is not:Returns True if both variables are not the same object
     7. Bitwise OPERATORS
 
+f-Strings
+    print(f"number1={num1},number2={num2}")
     Contorl Stmts
         Conditional Stmt(Decision Making) = if, if - else, if - elif- else, nested if - else
         Transfer Stmt (Jumping stmts) = break, contuine, pass
