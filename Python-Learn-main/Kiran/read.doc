@@ -38,7 +38,10 @@ Data Types - Classification that specifies which type of value a variable
                 Boolean(Ture,Flase)
                 set -{2,4,6}
                 Dictionary {1:'a',2:'b'}
-                Sequence - String - 'Shravan', List- [2,'a',5.7], Tuple - (3.4.5,'b')
+                Sequence - 
+                    String - 'Shravan'
+                    List- [2,'a',5.7]
+                    Tuple - (3.4.5,'b')
 
 Type Conversions - Process of converting the value of one data type(interger, string, float etc.,) to another datatype.
                     Implict Type Consersion - Automatically converts one data type to another datatype. This process doesn`t need any user involvement. There is no data loss
