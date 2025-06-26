@@ -11,5 +11,7 @@
 # cricketers_add = cricketers.append("hardik")
 # print(cricketers_add)
 
-if i <= 10:
-    print(i)
+for i in range(1,10):
+    print(i,end=(","))
+
+range(1,10)
