@@ -105,3 +105,5 @@ BREAK -  The break stts exists the loop permaturely
 Continue - The contuine stme skips the current iteration and countine with the next.
 
 Pass - It is a null operation, it does nothing
+
+![1751060480005](image/Book/1751060480005.png)

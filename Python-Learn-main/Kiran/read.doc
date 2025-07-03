@@ -72,8 +72,10 @@ f-Strings
     print(f"number1={num1},number2={num2}")
 
 Contorl Stmts
-    Conditional Stmt(Decision Making) = if, if - else, if - elif- else, nested if - else
-    Transfer Stmt (Jumping stmts) = break, contuine, pass
+    Conditional Stmt(Decision Making)
+        if, if - else, if - elif- else, nested if - else, shorthand if else
+    Transfer Stmt (Jumping stmts) 
+        break, contuine, pass
     Iterative Stmt (Looping Stmts) = for, while
             While Loop: Repeats the stmt or group of stmts while a given condition is TRUE. It tests the condition before executing the loop body.
             For Loop: Executes the code block mutiple times and abbreviates the code that manage the loop variable
